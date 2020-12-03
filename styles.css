@@ -1,0 +1,76 @@
+body {
+  background: #fff;
+  color: #000;
+  margin: 0;
+}
+
+.container {
+  margin: -20px 0;
+  width: 65vw;
+  height: 100vh;
+  background: #f3f3f3;
+}
+
+.header {
+  width: 65vw;
+  height: 15vh;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+}
+
+.container-text {
+  padding: 25px;
+}
+
+.stop {
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #e61818b9;
+  margin: 10px;
+}
+
+.save {
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #e61818b9;
+  margin: 10px;
+}
+
+.curve {
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #e61818b9;
+  margin: 10px;
+}
+
+.json {
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #e61818b9;
+}
+
+.binary {
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #e61818b9;
+}
+
+.load {
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #e61818b9;
+  margin: 10px;
+}

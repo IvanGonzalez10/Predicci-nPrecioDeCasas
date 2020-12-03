@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modelo de regresión</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.7.4/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.0.2/dist/tfjs-vis.umd.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <br />
+      <div class="header">
+        <img class="logo" src="captura.JPG" alt="Logo" />
+      </div>
+      <div class="container-text">
+        <h1>
+          Esta es una regresión lineal realizada con un modelo de redes
+          neuronales
+        </h1>
+        <p>
+          En esta aplicación se muestra la predicción del costo de una vivienda
+          dependiendo la cantidad de habitaciones que tenga la casa.
+        </p>
+        <h2>Funcionamiento</h2>
+        <p>
+          Cuando entras la red neuronal empieza a funcionar, cuando se
+          normalice, puede darle en el boton detener entrenamiento, despues de
+          esto haces click en el visor y haces click en el boton curva de
+          inferencia, en ese momento generará una graficá donde se mostrará la
+          predicción del modelo.
+        </p>
+        <h2>Guardar datos</h2>
+        <p>
+          Para guardar los datos debes hacer click en el boton guardar modelo,
+          este generara dos archivos que puede cargar en el futuro, uno sera el
+          archivo JSON y el otro sera el archivo Binario, subiendo estos dos
+          archivos podra volver a ver el modelo que guardaste en el momento que
+          quieras.
+        </p>
+        <input
+          class="stop"
+          type="button"
+          value="Detener Entrenamiento"
+          onclick="stopTraining=true;"
+        />
+        <input
+          class="save"
+          type="button"
+          value="Guardar Modelo"
+          onclick="guardarModelo();"
+        />
+        <input
+          class="curve"
+          type="button"
+          value="Curva de inferencia"
+          onclick="verCurvaInferencia();"
+        /><br />
+        Json File<input class="json" type="file" id="upload-json" />
+        Binary File<input class="binary" type="file" id="upload-weights" /><br />
+        <input class="load" type="button" value="Cargar modelo" onclick="cargarModelo();" />
+      </div>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
