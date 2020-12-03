@@ -41,7 +41,7 @@ body {
   width: 180px;
   height: 40px;
   border-radius: 20px;
-  background-color: #e61818b9;
+  background-color: #1cd125b9;
   margin: 10px;
 }
 
@@ -49,28 +49,67 @@ body {
   width: 180px;
   height: 40px;
   border-radius: 20px;
-  background-color: #e61818b9;
+  background-color: #eb8939b9;
   margin: 10px;
 }
 
-.json {
-  width: 180px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: #e61818b9;
+.container-input {
+  background-color: #4a2abb;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  overflow: hidden;
+  position: relative;  
+  text-align: center;
+  width: 160px;
+  margin-left: 10px;
+  margin-bottom: 5px;
 }
 
-.binary {
-  width: 180px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: #e61818b9;
+.container-input .json {
+  border: 10000px solid transparent;
+  cursor: pointer;
+  font-size: 10000px;
+  margin: 0;
+  opacity: 0;
+  outline: 0 none;
+  padding: 0;
+  position: absolute;
+  right: -1000px;
+  top: -1000px;
+}
+
+.container-input-bi {
+  background-color: #4a2abb;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  width: 160px;
+  margin-left: 10px;
+}
+
+.container-input-bi .binary {
+  border: 10000px solid transparent;
+  cursor: pointer;
+  font-size: 10000px;
+  margin: 0;
+  opacity: 0;
+  outline: 0 none;
+  padding: 0;
+  position: absolute;
+  right: -1000px;
+  top: -1000px;
 }
 
 .load {
   width: 180px;
   height: 40px;
   border-radius: 20px;
-  background-color: #e61818b9;
+  background-color: #0fc409b9;
   margin: 10px;
 }
